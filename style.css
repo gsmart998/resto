@@ -1,1 +1,13 @@
-style.css
+header {
+	width: 100%;
+	background-color: #ffffff;
+	height: 110px;
+}
+.logo {
+	display: inline-block;
+}
+
+.navibar {
+	display: inline-block;
+	
+}
