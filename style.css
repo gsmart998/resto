@@ -1,13 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 header {
 	width: 100%;
 	background-color: #ffffff;
 	height: 110px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 .logo {
 	display: inline-block;
+	margin-left: 200px;
 }
 
 .navibar {
 	display: inline-block;
-	
+	margin-right: 200px;
+}
+
+.navibar a {
+	margin-right: 50px;
+}
+
+.navibar a:last-child {
+	margin-right: 0;
+}
+
+.billboard {
+	width: 100%;
+	height: 570px;
+	background-color: lightgray;
+}
+
+.billboard img {
+	width: 100%;
+	height: 570px;
 }
