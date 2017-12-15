@@ -2,6 +2,7 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	font-family: "Lucida Grande" Lucida Grande;
 }
 
 header {
@@ -93,8 +94,7 @@ header {
 
 .menu {
 	width: 100%;
-	height: 700px;
-	background-color: lightgray;
+
 }
 
 .menuMark {
@@ -107,10 +107,11 @@ header {
 .mark {
 	width: 154px;
 	height: 75px;
-	border-left: solid red 77px;
-	border-top: solid red 10px;
-	border-right: solid red 77px;
+	border-left: solid #ea4647 77px;
+	border-top: solid #ea4647 10px;
+	border-right: solid #ea4647 77px;
 	border-bottom: solid transparent 10px;
+	margin-bottom: 80px;
 }
 
 .markText {
@@ -122,7 +123,112 @@ header {
 	margin-top: 20px;
 }
 
+.menuListMain {
+	width: 100%;
+	margin-bottom: 30px;
+	display: flex;
+	justify-content: center;
+	font-size: 16px;
+	color: #555555;
 
+}
+
+
+.menuList.first {
+	width: 35%;
+	margin-left: 10%;
+	margin-right: 5%;
+
+}
+
+.menuList.second {
+	width: 35%;
+	margin-right: 10%;
+	margin-left: 5%;
+}
+
+.menuList ul {
+	min-width: 320px;
+}
+
+
+.menuList li {
+	position: relative;
+	overflow: hidden;
+	white-space: nowrap;
+	margin-bottom: 60px;
+
+}
+
+.menuList .price {
+	float: right;
+	z-index: 1;
+	background-color: white;
+	position: relative;
+	padding-left: 40px;
+}
+
+.menuList .name::after {
+	content: "";
+	border-top: solid #e3e1e1 1px;
+	margin-left: 40px;
+	margin-bottom: -5px;
+	width: 500px;
+	height: 10px;
+	display: inline-block;
+	margin-right: 40px;
+	/*position: absolute;*/
+}
+
+.menuList span.name {
+	float: left;
+	position: absolute;
+}
+
+.menuList .composition {
+	color: #b7b7b7;
+	font-size: 12px;
+	font-style: italic;
+}
+
+
+.loadMoreBtn {
+	border: solid #d7d5d5 1px;
+	width: 130px;
+	height: 30px;
+	margin: 0 auto;
+	margin-bottom: 200px;
+	cursor: pointer;
+	color: #b7b7b7;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.loadMoreBtn span {
+	display: inline-block;
+	font-size: 14px;
+}
+
+
+.loadMoreBtn span::after {
+	content: "";
+	height: 10px;
+	border-right: solid #b7b7b7 1px;
+	margin: 0 10px;
+	display: inline-block;
+}
+
+.loadMoreBtn .v-symbol {
+	width: 8px;
+	height: 8px;
+	border: solid #b7b7b7 1px;
+	display: inline-block;
+	border-top: none;
+	border-left: none;
+	transform: rotate(45deg);
+	margin-bottom: 3px;
+}
 
 
 
