@@ -16,12 +16,12 @@ header {
 
 .logo {
 	display: inline-block;
-	margin-left: 200px;
+	margin-left: 10%;
 }
 
 .navibar {
 	display: inline-block;
-	margin-right: 200px;
+	margin-right: 10%;
 }
 
 .navibar a {
@@ -87,7 +87,7 @@ header {
 	margin-top: 9px;
 }
 
-/*BILLBOARD END*/
+/* BILLBOARD END */
 
 
 /* MENU */
@@ -121,6 +121,7 @@ header {
 	position: absolute;
 	text-align: center;
 	margin-top: 20px;
+	font-size: 20px;
 }
 
 .menuListMain {
@@ -177,7 +178,6 @@ header {
 	height: 10px;
 	display: inline-block;
 	margin-right: 40px;
-	/*position: absolute;*/
 }
 
 .menuList span.name {
@@ -227,8 +227,223 @@ header {
 	border-top: none;
 	border-left: none;
 	transform: rotate(45deg);
-	margin-bottom: 3px;
+	margin-bottom: 5px;
 }
+
+/* MENU END */
+
+
+/* FEATURED DISHES */
+
+.featured {
+	height: 400px;
+	margin-bottom: 200px;
+}
+
+.featured-header {
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 80px;
+}
+
+.featured-header span {
+	margin-left: 10%;
+	color: #3b3b3b;
+	font-size: 20px;
+}
+
+.featured-header span::after {
+	content: "";
+	border-top: solid #e3e1e1 1px;
+	margin-left: 20px;
+	margin-bottom: -4px;
+	width: 200px;
+	height: 10px;
+	display: inline-block;
+}
+
+.featured-header .dots {
+	display: inline-block;
+	float: right;
+	margin-right: 10%;
+}
+
+.dots div {
+	width: 10px;
+	height: 10px;
+	background-color: #dedede;
+	display: inline-block;
+	border-radius: 5px;
+}
+
+.dots div.checked {
+	background-color: #9b9b9b;
+}
+
+.featured .content {
+	margin: 0 10%;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+.content .dishes {
+	width: 230px;
+	height: 270px;
+}
+
+.dishes .dish-img {
+	width: 230px;
+	height: 200px;
+	background-position: center;
+	margin-bottom: 30px;
+}
+
+.dish1 .dish-img {
+	background-image: url(img/dish1.png);
+}
+
+.dish2 .dish-img {
+	background-image: url(img/dish2.png);
+}
+
+.dish3 .dish-img {
+	background-image: url(img/dish3.png);
+}
+
+.dish4 .dish-img {
+	background-image: url(img/dish4.png);
+}
+
+.dishes .text {
+	display: flex;
+	justify-content: space-between;
+	color: #555555;
+}
+
+.rating span {
+	color: #dedede;
+}
+
+.rating .star{
+	color: #f1df2f;
+}
+
+/* FEATURED DISHES END */
+
+
+/* GALLERY */
+
+.gallery {
+	margin-bottom: 200px;
+}
+
+.gallery-header {
+	margin-bottom: 80px;
+}
+.gallery-header span {
+	margin-left: 10%;
+	color: #3b3b3b;
+	font-size: 20px;
+}
+
+.gallery-header span::after {
+	content: "";
+	border-top: solid #e3e1e1 1px;
+	margin-left: 20px;
+	margin-bottom: -4px;
+	width: 200px;
+	height: 10px;
+	display: inline-block;
+}
+
+.gallery-img {
+	margin: 0 10%;
+	width: 1100px;
+	height: 432px;
+	background-color: lightgray;
+	display: flex;
+
+}
+
+.gallery-img .image1 {
+	background-image: url(img/gallery1.png);
+	width: 366px;
+	height: 432px;
+	background-position: center;
+	display: inline-block;
+}
+
+.other-img {
+	width: 734px;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+.other-img div {
+	width: 367px;
+	height: 216px;
+	background-position: center;
+}
+
+.other-img .image2 {
+	background-image: url(img/gallery2.png);
+}
+
+.other-img .image3 {
+	background-image: url(img/gallery3.png);
+}
+.other-img .image4 {
+	background-image: url(img/gallery4.png);
+}
+
+.other-img .image5 {
+	background-image: url(img/gallery5.png);
+}
+
+/* GALLERY END */
+
+/* FOOTER */
+
+footer {
+	padding: 100px 10% 0;
+	width: 100%;
+	height: 317px;
+	background-color: #3b3b3b;
+	display: flex;
+	justify-content: space-between;
+}
+
+footer div {
+	width: 210px;
+	color: white;
+}
+
+.footer-elem span {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.footer-menu a {
+	display: block;
+	color: white;
+	margin-bottom: 20px;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
